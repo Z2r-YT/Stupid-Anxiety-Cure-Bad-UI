@@ -1,0 +1,32 @@
+#scared {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgb(132, 0, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #00000065;
+}
+
+#fthis{
+    padding: 10px;
+    background-color: rgba(132, 0, 255, 0.309);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #00000065;
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+}
+
+body{
+    user-select: none;
+}
